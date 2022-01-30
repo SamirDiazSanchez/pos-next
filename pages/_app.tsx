@@ -1,4 +1,6 @@
-import { Layout } from "../components/Layout";
+import { Layout } from "../components/layout";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = ({ Component, pageProps }) => {
 	return (
