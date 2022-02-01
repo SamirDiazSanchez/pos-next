@@ -1,3 +1,5 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 module.exports = {
-  assetPrefix: process.env.NODE_ENV === 'production' ? './' : ''
+  // assetPrefix: isProd ? './' : ''
 }
